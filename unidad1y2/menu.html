@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+        <title>Tienda de Cynthia</title>
+        
+    </head>
+    <body>
+        <style>
+            img{
+                width: 200px;
+                height: auto;
+            }
+            table{
+                width: 80%;
+                margin-top: 20px;
+                border-collapse: collapse;
+                box-shadow: 0 5px 15px black;
+                margin-left: 50px;
+            }
+            th, tr{
+                text-align: left;
+                padding: 8px;
+            }
+            tr:nth-child(even){
+                background-color: rgb(236, 183, 210);
+            }
+            tr:hover{
+                background-color:rgb(235, 164, 199);
+            }
+            </style>
+            <div style="margin: 24px;">
+                <nav class="navba navbar-light"
+                style="background-color: rgb(236, 182, 207);">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color: rgb(0, 0, 0);">INICIO</a>
+                <div class="collapse navbar-collapse" id="navbarNabDropDown">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item
+                         dropdown">
+                         <a class="nav-link dropdown-toggle"
+                         href="" id="navbarDropdownMenuLink"
+                         data-toggle="dropdown"
+                         aria-haspopup="true"
+                         aria-expanded="false">UNIDAD 1</a>
+                         <div class="dropdown-menu"
+                         aria-labelledby="navbarDripdownMenuLink">
+                         <a class="dropdown-item" href="perfil.html">Perfil</a><br>
+                         <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                         <a class="dropdown-item" href="tienda.html">Tienda parte 1</a><br>
+                         </div>
+                        </li>
+                        <li class="nav-item
+                        dropdown">
+                        <a class="nav-link dropdown-toggle"
+                        href="" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">UNIDAD 2</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDripdownMenuLink">
+                        <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                        <a class="dropdown-item" href="json.html">JSON</a><br>
+                        <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                        </div>
+                       </li>
+                       <li class="nav-item
+                       dropdown">
+                       <a class="nav-link dropdown-toggle"
+                       href="" id="navbarDropdownMenuLink"
+                       data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">UNIDAD 3</a>
+                       <div class="dropdown-menu"
+                       aria-labelledby="navbarDripdownMenuLink">
+                       <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+                       <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                       </div>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <div style="margin:24px;">
+        </div>
+        <a href="tienda.html"></a>
+        <h1>Desayunos</h1>
+        <table>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                    </tr>
+                </tr>
+                <td><img src="img/desayuno1.jpg" alt= "Desayuno" ></td>
+                <td><p>La historia de los pancakes se remonta a la época medieval, cuando se preparaba una mezcla de harina, huevo y leche para hacer un tipo de pan plano. Con el tiempo, esta receta evolucionó para incluir levadura en polvo y se convirtió en lo se conoce actualmente como hotcake.</p></td>
+                <td>$180.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/desayuno2.jpg" alt= "Desayuno" ></td>
+                <td><p> Este desayuno contiene proteínas de muy buena calidad y de alto valor biológico. También incluye vitaminas de los grupos A y B. Por último, contiene minerales entre los que destaca el hierro, cuyo origen animal permite una fácil absorción.</p></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/desayuno3.jpg" alt= "Desayuno" ></td>
+                <td><p>El pan integral de frutas y frutos secos es una deliciosa opción para los amantes del pan casero. Tiene un sabor, textura y aroma bárbaros, y lo mejor de todo es que es nutritivo y energético.</p></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/desayuno4.jpg" alt= "Desayuno" ></td>
+                <td><p>La unión de cereales y frutos secos puede ser espectacular tanto a nivel culinario como nutritivo. Así, pasas de uvas, avellanas, almendras, nueces, castañas y prácticamente cualquier fruto seco integrado en el pan aporta sabor y valor nutricional.</p></td>
+                <td>$70.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/desayuno5.jpg" alt= "Desayuno" ></td>
+                <td><p>El desayuno de pan con huevo y tocino es un clásico que combina sabores reconfortantes y texturas irresistibles</p></td>
+                <td>$140.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/desayuno6.jpg" alt= "Desayuno" ></td>
+                <td><p>Este desayuno es una opción saludable y deliciosa para comenzar el día con energía. Combina la frescura de las frutas con la cremosidad del yogur natural</p></td>
+                <td>$100.00</td>
+            </tr>
+
+        </table>
+        <h1>Almuerzos</h1>
+        <table>
+            <tr>
+            <td><img src="img/almuerzo1.jpg" alt= "Bebida" ></td>
+            <td><p>Es un plato tradicional que se encuentra en la gastronomía de varios países de América Latina y España. Su base es simple: arroz cocido junto con pollo. Sin embargo, las variaciones en los ingredientes y la preparación hacen que este platillo sea único en cada lugar.</p></td>
+            <td>$250.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo2.jpg" alt= "Bebida" ></td>
+            <td><p>Este estofado de pollo con patatas y verduras es una auténtica delicia. El pollo queda súper tierno, al igual que las patatas, y las verduras y la salsa sabrosísimas, con un ligero espesor que le sienta de 10 al plato</p></td>
+            <td>$180.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo3.jpg" alt= "Bebida" ></td>
+            <td><p>Este plato es una deliciosa combinación de arroz, pollo y una variedad de verduras, cocinadas juntas para crear un sabor reconfortante y lleno de nutrientes.</p></td>
+            <td>$130.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo4.jpg" alt= "Bebida" ></td>
+            <td><p>El espagueti con albóndigas y salsa de tomate es un platillo delicioso y reconfortante que combina la suavidad de la pasta con la jugosidad de las albóndigas</p></td>
+            <td>$130.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo5.jpg" alt= "Bebida" ></td>
+            <td><p>Los chilaquiles son un platillo tradicional mexicano que combina la suavidad de las tortillas con la intensidad de una salsa picante.</p></td>
+            <td>$100.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/almuerzo6.jpg" alt= "Bebida" ></td>
+            <td><p>Las enchiladas son un plato de la gastronomía de México elaboradas con tortillas de maíz enrolladas o dobladas y bañadas en alguna salsa picante. Se trata de uno de los platos más populares de México y presenta gran diversidad en las distintas gastronomías regionales del país.</p></td>
+            <td>$90.00</td>
+        </tr>
+        <tr>
+
+
+        </table>
+        <h1>Comidas</h1>
+        <table>
+            <tr>
+            <td><img src="img/comida1.jpg" alt= "Bebida" ></td>
+            <td><p>El caldo de albóndigas es un platillo tradicional mexicano que combina la suavidad de las albóndigas con la riqueza de un caldo aromático</p></td>
+            <td>$80.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida2.jpg" alt= "Bebida" ></td>
+            <td><p>Las flautas son uno de los platillos más preparados para celebrar distintas fiestas mexicanas, como la Independencia Nacional, la Revolución Mexicana e incluso la conmemoración de la Batalla de Puebla. Lo mejor de este antojito es que resulta muy económico, fácil de preparar y de compartir, por lo que son perfectos para la hora de la fiesta.</p></td>
+            <td>$120.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida3.jpg" alt= "Bebida" ></td>
+            <td><p>El pollo a la crema con arroz es un platillo que combina la suavidad del pollo en una rica salsa de crema con la textura y sabor del arroz.</p></td>
+            <td>$300.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida4.jpg" alt= "Bebida" ></td>
+            <td><p>Las enchiladas suizas son un platillo originario de la Ciudad de México y se caracterizan por su salsa cremosa a base de tomate y crema. Estas enchiladas se diferencian de otros tipos por su cubierta de queso derretido, que les otorga un sabor suave y gratinado</p></td>
+            <td>$200.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida5.jpg" alt= "Bebida" ></td>
+            <td><p>El mole con arroz es una combinación culinaria que fusiona la riqueza del mole con la simplicidad y versatilidad del arroz. Este platillo es un verdadero deleite para los sentidos, y su preparación puede variar según las tradiciones y preferencias personales</p></td>
+            <td>$180.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/comida6.jpg" alt= "Bebida" ></td>
+            <td><p>Las tostadas de pollo son un platillo parte de la tradición de la comida callejera mexicana. Estas tostadas son coloridas, versátiles y deliciosas, ya que se pueden preparar con lo que tengamos a la mano</p></td>
+            <td>$140.00</td>
+        </tr>
+        <tr>
+
+        </table>
+        <h1>Bebidas</h1>
+        <table>
+            <tr>
+                <td><img src="img/bebida1.jpg" alt= "Bebida" ></td>
+                <td><p>Es un producto complejo formado agua, azúcares, ácidos orgánicos, sales minerales, vitaminas y pigmentos, además de una serie de componentes orgánicos volátiles e inestables responsables de su sabor y aroma.</p></td>
+                <td>$60.00</td>
+                </tr>
+                <tr>
+
+                <td><img src="img/bebida2.jpg" alt= "Bebida" ></td>
+                <td><p>Este tipo de bebidas pueden proporcionar energía extra a quienes las consumen.</p></td>
+                <td>$30.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/bebida3.jpg" alt= "Bebida" ></td>
+                <td><p>Bebida azucarada gaseosa vendida a nivel mundial en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios.</p></td>
+                <td>$28.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/bebida4.jpg" alt= "Bebida" ></td>
+                <td><p> Bebida elaborada a base de leche o helado, que puede llevar frutas, chocolate o turrón,</p></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/bebida5.jpg" alt= "Bebida" ></td>
+                <td><p> Bebida refrescante aromatizada, formada por una solución electrolítica a base de hidratos de carbono, que contribuye a mantener el nivel de resistencia en ejercicios que requieren una resistencia prolongada.</p></td>
+                <td>$25.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/bebida6.jpg" alt= "Bebida" ></td>
+                <td><p>Es un elemento esencial para mantener nuestro cuerpo sano y funcionando correctamente</p></td>
+                <td>$22.00</td>
+            </tr>
+            <tr>
+
+            </table>
+            <h1>Postres</h1>
+            <table>
+                <tr>
+                <td><img src="img/postre1.jpg" alt= "Bebida" ></td>
+                <td><p>Contiene varios cubitos de colores de gelatina preparada, que luego se mezcla con una gelatina dulce y cremosa hecha con leche. Esta gelatina fresca y cremosa se puede hacer con los colores y sabores que se prefiera.</p></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/postre2.jpg" alt= "Bebida" ></td>
+                <td><p>Es una combinación única de texturas y sabores. Se compone de dos capas distintas: una capa inferior de pastel de chocolate y una capa superior de flan suave y cremoso. Cuando se hornea, las dos capas se fusionan para crear una textura suave y húmeda con un rico sabor a chocolate y vainilla.</p></td>
+                <td>$170.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/postre3.jpg" alt= "Bebida" ></td>
+                <td><p>El pay de queso, también conocido como cheesecake, es un postre que ha deleitado a paladares durante siglos. Su historia es fascinante y se remonta a la antigua Grecia.</p></td>
+                <td>$240.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/postre4.jpg" alt= "Bebida" ></td>
+                <td><p>Tipo de masa que suele formarse con agua, manteca (también llamada mantequilla) y harina y que puede rellenarse con alimentos dulces o salados.</p></td>
+                <td>$380.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/postre5.jpg" alt= "Bebida" ></td>
+                <td><p>Pasta compuesta de harina, azúcar y a veces huevo, manteca o confituras diversas, que, dividida en trozos pequeños y moldeados o modelados en forma varia, se cuece al horno</p></td>
+                <td>$120.00</td>
+            </tr>
+            <tr>
+                <td><img src="img/postre6.jpg" alt= "Bebida" ></td>
+                <td><p>Se prepara normalmente con huevos enteros, leche y azúcar. El sabor más común es simplemente el de vainilla, pero existen muchas otras variaciones que incluyen almendras, pistacho, limón y otras variedades de frutas.</p></td>
+                <td>$100.00</td>
+                
+                
+            </tr>
+            <tr>
+                
+            </tr>
+
+
+            </table>
+
+        </style>
+
+    </body>
+</html>
